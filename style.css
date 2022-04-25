@@ -6769,7 +6769,7 @@ figcaption {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: hsla(0, 0%, 100%, 0);
-  color: hsla(0, 0%, 100%, 0);
+  color: #000;
 }
 
 .centered-container {
@@ -9989,7 +9989,36 @@ figcaption {
   }
 
   .faq-item-border {
+    overflow: auto;
     padding: 24px 14px;
+  }
+
+  .faq-title-wrapper-large {
+    overflow: visible;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+
+  .faq-toggle {
+    overflow: visible;
+  }
+
+  .paragraph-regular-bold {
+    overflow: auto;
+    white-space: pre-wrap;
+  }
+
+  .faq-grid {
+    grid-auto-flow: row;
+  }
+
+  .faq-arrow {
+    overflow: visible;
   }
 
   .grid-3 {
@@ -11170,6 +11199,21 @@ figcaption {
   grid-row-end: 2;
   -ms-grid-column-align: start;
   justify-self: start;
+}
+
+@media screen and (min-width: 1920px) {
+  #w-node-_10c8656b-4e0b-8d5e-2eb1-a77ab25f7c47-76ded284 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
 }
 
 @media screen and (min-width: 1440px) {
