@@ -3065,7 +3065,21 @@ figcaption {
 
 .nav-dropdown-list {
   display: none;
+  overflow: hidden;
   padding: 0.5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   background-color: transparent;
 }
 
@@ -3076,10 +3090,19 @@ figcaption {
   display: flex;
   overflow: hidden;
   padding: 0.5rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   border-style: solid;
   border-width: 1px;
   border-color: rgba(120, 140, 160, 0.4);
@@ -3575,6 +3598,10 @@ figcaption {
 
 .nav-dropdown-links-column {
   padding-right: 0.5rem;
+}
+
+.nav-menu-burger-icon {
+  display: block;
 }
 
 .text-color-transparent {
@@ -7527,12 +7554,128 @@ figcaption {
   text-align: left;
 }
 
-.rich-text-block-9 {
-  text-align: left;
+.nav-dropdown-list-2 {
+  display: none;
+  padding: 0.5rem;
+  background-color: transparent;
 }
 
-.rich-text-block-10 {
-  text-align: left;
+.nav-dropdown-list-2.w--open {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  padding: 0.5rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(120, 140, 160, 0.4);
+  border-radius: 0.5rem;
+  background-color: #0e0e12;
+}
+
+.nav-ddropdown-link-2 {
+  padding: 0.75rem 1rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: background-color 200ms ease-out, color 200ms ease-out;
+  transition: background-color 200ms ease-out, color 200ms ease-out;
+  color: #788ca0;
+}
+
+.nav-ddropdown-link-2:hover {
+  color: #fff;
+}
+
+.nav-ddropdown-link-2.w--current {
+  color: #fff;
+}
+
+.nav-dropdown-toggle-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.75rem 1rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: color 200ms ease-out;
+  transition: color 200ms ease-out;
+  color: #788ca0;
+  font-weight: 500;
+}
+
+.nav-dropdown-toggle-2:hover {
+  color: #fff;
+}
+
+.nav-logo-2 {
+  max-height: 1.75rem;
+}
+
+.button-secondary-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.75rem 1.25rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(120, 140, 160, 0.4);
+  border-radius: 0.5rem;
+  background-color: transparent;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  color: #788ca0;
+  line-height: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button-secondary-2:hover {
+  border-color: #fff;
+  color: #fff;
+}
+
+.button-secondary-2.is-nav {
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
+
+.nav3-dropdown-icon-2 {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: 0.25rem;
 }
 
 @media screen and (min-width: 1280px) {
@@ -8892,6 +9035,52 @@ figcaption {
     -ms-flex-pack: start;
     justify-content: flex-start;
   }
+
+  .nav-menu-burger-icon-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #788ca0;
+  }
+
+  .nav-dropdown-list-2.w--open {
+    padding: 0rem 0rem 0.5rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    border-style: none none solid;
+    border-radius: 0rem;
+  }
+
+  .nav-ddropdown-link-2 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 2.5rem;
+  }
+
+  .nav-dropdown-toggle-2 {
+    width: auto;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 2.5rem;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -9750,6 +9939,16 @@ figcaption {
   .nav-link-2 {
     padding: 0.75rem 1.25rem;
   }
+
+  .nav-ddropdown-link-2 {
+    padding-left: 1.25rem;
+  }
+
+  .nav-dropdown-toggle-2 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -10566,6 +10765,14 @@ figcaption {
     grid-template-columns: 1fr;
     -ms-grid-rows: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
+  }
+
+  .nav-ddropdown-link-2 {
+    font-weight: 500;
+  }
+
+  .nav-dropdown-toggle-2 {
+    font-size: 0.875rem;
   }
 }
 
