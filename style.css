@@ -1942,6 +1942,42 @@ textarea.w-select {
 /* ==========================================================================
    Start of custom Webflow CSS
    ========================================================================== */
+.w-basic-heading--styledAs-h1 {
+  font-size: 38px;
+  line-height: 44px;
+  margin-top: 20px;
+}
+
+.w-basic-heading--styledAs-h2 {
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 20px;
+}
+
+.w-basic-heading--styledAs-h3 {
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.w-basic-heading--styledAs-h4 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+.w-basic-heading--styledAs-h5 {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.w-basic-heading--styledAs-h6 {
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 10px;
+}
+
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
