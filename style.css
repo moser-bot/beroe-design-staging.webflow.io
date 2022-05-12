@@ -7779,6 +7779,10 @@ figcaption {
   grid-template-rows: auto auto auto;
 }
 
+.div-block-20 {
+  max-width: 60%;
+}
+
 @media screen and (min-width: 1280px) {
   .background-shape-1 {
     max-width: 40rem;
@@ -10942,6 +10946,10 @@ figcaption {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+
+  .div-block-20 {
+    max-width: 100%;
+  }
 }
 
 #w-node-e9760ec0-64f4-c94e-bd58-0ebce0f8a726-50e0ba2d {
@@ -11331,30 +11339,6 @@ figcaption {
   grid-column-end: span 1;
   -ms-grid-row-align: end;
   align-self: end;
-}
-
-#w-node-_10c8656b-4e0b-8d5e-2eb1-a77ab25f7c47-15386cc0 {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-  -ms-grid-row-align: center;
-  align-self: center;
-}
-
-#w-node-_3ad93a47-c334-0795-ceb2-fa8cf25b3355-15386cc0 {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
 }
 
 #w-node-_0039fd6e-2a68-0f24-5777-5cebb94718ac-15386cc0 {
