@@ -4337,7 +4337,7 @@ figcaption {
   display: grid;
   grid-auto-columns: 1fr;
   grid-column-gap: 4rem;
-  grid-row-gap: 8.25rem;
+  grid-row-gap: 4.75rem;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto auto;
