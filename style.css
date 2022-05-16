@@ -1942,42 +1942,6 @@ textarea.w-select {
 /* ==========================================================================
    Start of custom Webflow CSS
    ========================================================================== */
-.w-basic-heading--styledAs-h1 {
-  font-size: 38px;
-  line-height: 44px;
-  margin-top: 20px;
-}
-
-.w-basic-heading--styledAs-h2 {
-  font-size: 32px;
-  line-height: 36px;
-  margin-top: 20px;
-}
-
-.w-basic-heading--styledAs-h3 {
-  font-size: 24px;
-  line-height: 30px;
-  margin-top: 20px;
-}
-
-.w-basic-heading--styledAs-h4 {
-  font-size: 18px;
-  line-height: 24px;
-  margin-top: 10px;
-}
-
-.w-basic-heading--styledAs-h5 {
-  font-size: 14px;
-  line-height: 20px;
-  margin-top: 10px;
-}
-
-.w-basic-heading--styledAs-h6 {
-  font-size: 12px;
-  line-height: 18px;
-  margin-top: 10px;
-}
-
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -6421,11 +6385,11 @@ figcaption {
   color: #0e0e12;
 }
 
-.paragraph-5 {
+.paragraph-text-color-light {
   color: #aca8b9;
 }
 
-.paragraph-5.margin_bottom_30 {
+.paragraph-text-color-light.margin_bottom_30 {
   margin-bottom: 35px;
   color: #0e0e12;
 }
@@ -6441,7 +6405,7 @@ figcaption {
 }
 
 .avatar-image.margin_bottom-30 {
-  width: 40%;
+  width: 60%;
   margin-bottom: 30px;
   border-radius: 200px;
   box-shadow: 0 4px 16px 1px hsla(0, 0%, 100%, 0.5);
@@ -7839,6 +7803,24 @@ figcaption {
   top: 0%;
   right: 0%;
   bottom: auto;
+}
+
+.paragraph-underline {
+  color: #6333ff;
+  text-decoration: underline;
+}
+
+.paragraph-underline.text_overflow-bio {
+  position: static;
+  overflow: visible;
+  width: 85%;
+  color: #0e0e12;
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+.paragraph-underline._6 {
+  color: #0e0e12;
 }
 
 @media screen and (min-width: 1280px) {
@@ -10302,6 +10284,15 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .margin-horizontal {
@@ -11660,6 +11651,50 @@ figcaption {
 }
 
 #w-node-_9c921d4e-f282-38f1-3de8-e4494820fbf0-9ea1b974 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-_93437d95-9dbb-ed35-be01-e866f01b5a2f-15cdce32 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-f65b64d2-7050-4463-8eaf-acbaf46f9014-15cdce32 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-be08b9b1-abf2-67b1-12ac-db27bcea7b47-15cdce32 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-be08b9b1-abf2-67b1-12ac-db27bcea7b53-15cdce32 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
