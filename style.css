@@ -14036,6 +14036,10 @@ figcaption {
     -webkit-order: 9999;
     -ms-flex-order: 9999;
     order: 9999;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
 
   #w-node-_552db7bf-4d50-27aa-8998-d359c35ff6d7-f4e52872 {
