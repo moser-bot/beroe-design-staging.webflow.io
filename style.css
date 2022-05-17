@@ -2365,8 +2365,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 56px;
-  padding: 0.7rem 1.25rem;
+  padding: 0.75rem 1.25rem 0.7rem;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -4216,7 +4215,6 @@ figcaption {
   grid-template-columns: 0.75fr 0.75fr 0.75fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  text-align: center;
 }
 
 .kys-features-component.margin-bottom.margin-xhuge {
@@ -5338,15 +5336,10 @@ figcaption {
 }
 
 .margin-bottom.margin-small {
-  display: block;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-}
-
-.margin-bottom.margin-medium {
-  display: block;
 }
 
 .margin-bottom.margin-xlarge {
@@ -6998,20 +6991,8 @@ figcaption {
 }
 
 .image-19 {
-  margin-left: 0px;
-  padding-left: 0px;
   background-clip: padding-box;
   -webkit-text-fill-color: inherit;
-  -o-object-fit: fill;
-  object-fit: fill;
-}
-
-.image-20 {
-  margin-left: 0px;
-}
-
-.image-21 {
-  margin-left: 0px;
 }
 
 .paragraph-standard-2 {
@@ -8269,7 +8250,7 @@ figcaption {
     margin-bottom: 1rem;
   }
 
-  .margin-bottom.margin-medium {
+  .margin-bottom.margin-huge {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -9550,12 +9531,6 @@ figcaption {
     line-height: 2.75rem;
   }
 
-  h2 {
-    font-size: 2rem;
-    line-height: 2.75rem;
-    text-align: left;
-  }
-
   h3 {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -9928,10 +9903,6 @@ figcaption {
     max-width: 20rem;
   }
 
-  .kys-list-item {
-    text-align: left;
-  }
-
   .we-offer-item-image {
     width: 3.75rem;
   }
@@ -10196,10 +10167,6 @@ figcaption {
     margin-top: 1.5rem;
   }
 
-  .margin-bottom.margin-xsmall {
-    text-align: left;
-  }
-
   .feature-section {
     padding: 40px 20px;
   }
@@ -10400,10 +10367,6 @@ figcaption {
   .office-locations-component-copy {
     grid-column-gap: 1.25rem;
     grid-row-gap: 2rem;
-  }
-
-  .office-location-list-item {
-    text-align: left;
   }
 
   .page-padding-purple {
@@ -10611,10 +10574,6 @@ figcaption {
   }
 
   .margin-vertical.margin-medium {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -11501,6 +11460,10 @@ figcaption {
     -ms-grid-rows: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
   }
+
+  .heading-17 {
+    font-size: 2rem;
+  }
 }
 
 #w-node-e9760ec0-64f4-c94e-bd58-0ebce0f8a726-50e0ba2d {
@@ -11947,6 +11910,17 @@ figcaption {
 }
 
 #w-node-_5d6c6127-06a1-b571-a09a-63fa8b3e06e8-15386cc0 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-a9f351f8-56fd-b81b-cb79-594e0ff99053-cf5d8524 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -13967,6 +13941,17 @@ figcaption {
     -webkit-order: 9999;
     -ms-flex-order: 9999;
     order: 9999;
+  }
+
+  #w-node-fd97bbf7-0706-6304-731e-a863edb0431d-15cdce32 {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
   }
 
   #w-node-_56553253-03d1-a127-63c0-ff4012094d13-76ded284 {
