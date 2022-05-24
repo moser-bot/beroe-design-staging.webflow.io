@@ -6614,7 +6614,7 @@ figcaption {
 
 .left-align {
   line-height: 1.6;
-  text-align: left;
+  text-align: center;
 }
 
 .paragraph-7 {
@@ -7463,6 +7463,11 @@ figcaption {
   width: 100%;
 }
 
+.search-form.is-cta-block.margin-search-form {
+  width: 70%;
+  margin-right: 0px;
+}
+
 .office-locations-component-copy {
   display: -ms-grid;
   display: grid;
@@ -7866,6 +7871,7 @@ figcaption {
 .grid-search {
   display: -ms-grid;
   display: grid;
+  width: 50%;
   grid-auto-columns: auto;
   grid-column-gap: 0.8rem;
   grid-row-gap: 1rem;
@@ -9719,6 +9725,21 @@ figcaption {
   color: #fff;
 }
 
+.div-block-31 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.form-block {
+  width: 30%;
+}
+
 @media screen and (min-width: 1280px) {
   .nav-dropdown {
     margin-left: 0rem;
@@ -11258,6 +11279,11 @@ figcaption {
     line-height: 4rem;
   }
 
+  .search-form.is-cta-block.margin-search-form {
+    width: 100%;
+    margin-bottom: 1.7rem;
+  }
+
   .office-locations-component-copy {
     grid-column-gap: 1.5rem;
     grid-row-gap: 3rem;
@@ -11395,8 +11421,14 @@ figcaption {
 
   .grid-search {
     width: 100%;
-    -ms-grid-columns: auto;
-    grid-template-columns: auto;
+    justify-items: end;
+    -ms-grid-columns: auto 0.25fr;
+    grid-template-columns: auto 0.25fr;
+  }
+
+  .form-input-search {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
   }
 
   .position-page-position-descriprion-divider-2 {
@@ -11631,6 +11663,18 @@ figcaption {
 
   .button-marketing.category-button.purple-button {
     width: 40%;
+  }
+
+  .div-block-31 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .form-block {
+    width: 50%;
   }
 }
 
@@ -13680,7 +13724,7 @@ figcaption {
   }
 
   .grid-search {
-    grid-row-gap: 0.25rem;
+    grid-row-gap: 1rem;
     -ms-grid-columns: auto;
     grid-template-columns: auto;
   }
@@ -13885,6 +13929,10 @@ figcaption {
   .button-marketing.category-button.purple-button {
     width: 100%;
     margin-right: 0px;
+  }
+
+  .form-block {
+    width: 100%;
   }
 }
 
