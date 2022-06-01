@@ -2877,7 +2877,10 @@ figcaption {
 }
 
 .container-medium {
-  width: 80%;
+  width: 100%;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .container-small {
@@ -5476,8 +5479,8 @@ figcaption {
 }
 
 .grid {
-  grid-column-gap: 62px;
-  grid-row-gap: 16px;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
   -ms-grid-columns: 1.25fr 1fr;
   grid-template-columns: 1.25fr 1fr;
   -ms-grid-rows: auto;
@@ -10806,6 +10809,23 @@ figcaption {
   font-size: 1.2rem;
 }
 
+.image-52 {
+  width: 80%;
+  height: auto;
+}
+
+.container-small-copy {
+  display: block;
+  width: 100%;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-small-copy.is-align-left {
+  margin-left: 0px;
+}
+
 @media screen and (min-width: 1280px) {
   .nav-dropdown {
     margin-left: 0rem;
@@ -11185,6 +11205,10 @@ figcaption {
 
   .tab-item-layout-wrapper-copy.big-top-margin {
     margin-top: 125px;
+  }
+
+  .image-52 {
+    width: 70%;
   }
 }
 
