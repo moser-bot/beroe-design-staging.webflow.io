@@ -2165,9 +2165,9 @@ body {
 h1 {
   margin-top: 0rem;
   margin-bottom: 0rem;
-  font-size: 4.375rem;
-  line-height: 5.25rem;
-  font-weight: 600;
+  font-size: 4rem;
+  line-height: 1.1;
+  font-weight: 900;
   letter-spacing: -1px;
 }
 
@@ -2175,40 +2175,40 @@ h2 {
   margin-top: 0rem;
   margin-bottom: 0rem;
   font-size: 3rem;
-  line-height: 4.25rem;
-  font-weight: 600;
+  line-height: 1.2;
+  font-weight: 700;
 }
 
 h3 {
   margin-top: 0rem;
   margin-bottom: 0rem;
-  font-size: 1.875rem;
-  line-height: 2.625rem;
-  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 600;
 }
 
 h4 {
   margin-top: 0rem;
   margin-bottom: 0rem;
-  font-size: 1.625rem;
-  line-height: 2.25rem;
-  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 500;
 }
 
 h5 {
   margin-top: 0rem;
   margin-bottom: 0rem;
-  font-size: 1.625rem;
-  line-height: 2.25rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
   font-weight: 600;
 }
 
 h6 {
   margin-top: 0rem;
   margin-bottom: 0rem;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  font-weight: 500;
 }
 
 p {
@@ -2543,6 +2543,7 @@ figcaption {
 .rich-text h3 {
   margin-top: 1.5rem;
   margin-bottom: 1rem;
+  font-weight: 600;
 }
 
 .rich-text h4 {
@@ -8155,6 +8156,86 @@ figcaption {
   display: none;
 }
 
+.text-rich-text h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.text-rich-text h1 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.text-rich-text h6 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.text-rich-text p {
+  margin-bottom: 0.75rem;
+}
+
+.text-rich-text h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.text-rich-text h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.text-rich-text h5 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.text-rich-text blockquote {
+  margin-bottom: 0.75rem;
+}
+
+.text-rich-text ul {
+  margin-bottom: 0.75rem;
+}
+
+.fs-styleguide_1-col {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 1.25rem;
+  grid-row-gap: 1.25rem;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.heading-20 {
+  font-weight: 900;
+}
+
+.heading-21 {
+  font-weight: 700;
+}
+
+.heading-22 {
+  font-weight: 600;
+}
+
+.heading-23 {
+  font-weight: 500;
+}
+
+.heading-24 {
+  font-weight: 500;
+}
+
+.heading-25 {
+  line-height: 1.5;
+  font-weight: 500;
+}
+
 @media screen and (min-width: 1280px) {
   .nav-dropdown {
     margin-left: 0rem;
@@ -8343,10 +8424,6 @@ figcaption {
 }
 
 @media screen and (min-width: 1440px) {
-  h3 {
-    font-weight: 400;
-  }
-
   a {
     -webkit-transition-duration: 200ms;
     transition-duration: 200ms;
@@ -8868,10 +8945,6 @@ figcaption {
 }
 
 @media screen and (max-width: 991px) {
-  h2 {
-    line-height: 4rem;
-  }
-
   .button.category-button {
     width: 40%;
   }
@@ -10104,18 +10177,19 @@ figcaption {
 
 @media screen and (max-width: 767px) {
   h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
     font-size: 2rem;
-    line-height: 2.75rem;
   }
 
   h3 {
     font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   h4 {
     font-size: 1rem;
-    line-height: 1.5rem;
   }
 
   p {
@@ -11099,6 +11173,23 @@ figcaption {
 
   .text-size-medium {
     font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+
+  .rich-text h1 {
+    font-size: 4.375rem;
+  }
+
+  .rich-text p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .rich-text ul {
+    font-size: 1rem;
+  }
+
+  .rich-text li {
     line-height: 1.5rem;
   }
 
