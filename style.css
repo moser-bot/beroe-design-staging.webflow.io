@@ -2432,8 +2432,8 @@ figcaption {
 
 .heading-large {
   font-size: 3rem;
-  line-height: 4.25rem;
-  font-weight: 600;
+  line-height: 1.2;
+  font-weight: 700;
 }
 
 .text-weight-bold {
@@ -7366,16 +7366,6 @@ figcaption {
   width: 50%;
 }
 
-.margin-vertical-alt {
-  margin-right: 0rem;
-  margin-left: 0rem;
-}
-
-.margin-vertical-alt.margin-huge {
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-}
-
 .form-input-search-light {
   width: 100%;
   height: 100%;
@@ -8211,31 +8201,6 @@ figcaption {
   grid-template-rows: auto;
 }
 
-.heading-20 {
-  font-weight: 900;
-}
-
-.heading-21 {
-  font-weight: 700;
-}
-
-.heading-22 {
-  font-weight: 600;
-}
-
-.heading-23 {
-  font-weight: 500;
-}
-
-.heading-24 {
-  font-weight: 500;
-}
-
-.heading-25 {
-  line-height: 1.5;
-  font-weight: 500;
-}
-
 @media screen and (min-width: 1280px) {
   .nav-dropdown {
     margin-left: 0rem;
@@ -8571,11 +8536,6 @@ figcaption {
 
   .nav-dropdown-right-margin {
     padding-right: 556px;
-  }
-
-  .margin-vertical-alt.margin-huge {
-    margin-top: 6rem;
-    margin-bottom: 2rem;
   }
 
   .block-content-post {
@@ -10040,11 +10000,6 @@ figcaption {
     padding-bottom: 1.75rem;
   }
 
-  .margin-vertical-alt {
-    margin-right: 0rem;
-    margin-left: 0rem;
-  }
-
   .form-input-search-light {
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
@@ -11029,11 +10984,6 @@ figcaption {
   .accordian-faq {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-  }
-
-  .margin-vertical-alt {
-    margin-right: 0rem;
-    margin-left: 0rem;
   }
 
   .form-input-search-light {
@@ -12042,11 +11992,6 @@ figcaption {
   .accordian-faq {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
-  }
-
-  .margin-vertical-alt {
-    margin-right: 0rem;
-    margin-left: 0rem;
   }
 
   .form-input-search-light {
